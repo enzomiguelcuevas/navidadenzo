@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+background-image: linear-gradient(135deg,#00B7D4,#505488,#e4d946,#ee6f08,#5a4894,#82f138,#fa5509);
+background-size: 500%;
+animation: fanimado 20s infinite;
+
+}
+@keyframes fanimado{
+
+    0%{background-position: 0% 50%;
+
+    }
+    50%{
+        background-position: 100% 50%;
+
+    }100%{
+        background-position: 0% 50%;
+    }
+}
+.actions{
+    margin: 1em auto;
+    text-align: center;
+}
+.arbol-conteiner{
+    max-width: 600px;
+    width: 100%;
+    margin: 1em auto;
+    position: relative;
+  
+}
+
+.arbol{
+    width: 450px;
+  
+
+}.balls img{
+    position: absolute;
+    width: 8%;
+    height: auto;
+    animation-name: light1;  
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    
+}
+.text{
+    text-align: center;
+    margin-top: auto;
+  color: rgba(253, 43, 6, 0.89);
+    font-family: 'Mountains of Christmas', cursive;
+    
+}
+
+.ball-verde1{
+    left: 47%;
+    bottom: 2%
+}
+.ball-rojo1{
+    left: 46%;
+    top: 99%;
+}
+.ball-dorado1{
+    left: 47%;
+    top: 15%;
+}
+.ball-azul1{
+    right: 40%;
+    top: 95%;
+}
+.ball-verde2{
+  right: 53%;
+  top: 85%;
+}
+.ball-rojo2{
+   right: 40%;
+   top: 110%;
+}
+.ball-dorado2{
+    right: 50%;
+    top: 55%;
+ }
+ .ball-dorado2{
+    right: 46%;
+ 
+   top: 65%;
+ }
+ .ball-azul2{
+    right: 52%;
+   top: 105%;
+ }
+ .ball-azul3{
+
+     max-width: 400px;
+     right: 8%;
+     top: 34%;
+    
+   
+ }
+ .ball-azul4{
+
+    max-width: 400px;
+    right: 8%;
+    top: 34%;
+
+}
+.ball-azul5{
+
+    max-width: 400px;
+    right: 46%;
+    top: 43%;
+
+}.ball-azul6{
+
+    max-width: 400px;
+    right: 15%;
+    top: 0%;
+
+}
+.ball-azul7{
+
+    max-width: 400px;
+    right: 76%;
+    top:-1%;
+
+}
+
+
+.texto{
+    margin-top: auto;
+    text-align: center;
+    
+}
+ 
+ @keyframes light1{
+from{
+    filter: brightness(1);
+}
+to{
+    filter: brightness(1.8)drop-shadow(0 0 20px  rgb(219, 191, 10));
+}
+}
+
+
